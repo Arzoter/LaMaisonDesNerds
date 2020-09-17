@@ -1,0 +1,34 @@
+body {
+    background-image: url("https://static.educalingo.com/img/es/800/nerd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.rainbow-text {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 6s ease infinite;
+  }
+  
+  @keyframes rainbow { 
+      0%{background-position:0% 50%}
+      50%{background-position:100% 25%}
+      100%{background-position:0% 50%}
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 { /* Pour centrer les médias avec un retour à la ligne */
+    text-align: center;
+    font-size: 17px;
+}
