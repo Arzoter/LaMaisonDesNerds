@@ -1,8 +1,14 @@
-body {
+html {
     background-image: url("https://static.educalingo.com/img/es/800/nerd.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+
+
+
+
+/* CSS titre RGB dynamique */
 
 .rainbow-text {
     background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
@@ -18,10 +24,14 @@ body {
       100%{background-position:0% 50%}
 }
 
+
+
+
+
+/* CSS Titres */
+
 h1 {
-    text-align: center;
-    font-size: 40px;
-    border: 2px solid black;
+    padding: 0 0 0 16px;
 }
 
 h2 {
@@ -31,4 +41,66 @@ h2 {
 h5 { /* Pour centrer les médias avec un retour à la ligne */
     text-align: center;
     font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+h6 {
+    text-align:center;
+    font-style: italic;
+    color: cornsilk;
+    margin-top: 110px;
+}
+
+
+
+
+
+/* CSS Sections */
+
+#section-bienvenue {
+    align-items: center;
+}
+
+#section-ingé {
+    margin-top: 75px;
+}
+
+
+
+
+
+/* CSS Barre navigation */
+
+nav {
+    align-items: center;
+}
+
+#ul-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+li a {
+    color: white;
+}
+
+#li-nav {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: #333;
 }
